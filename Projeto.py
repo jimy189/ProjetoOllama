@@ -7,45 +7,6 @@ arquivo_json = "Ementa BI CeT.json"
 # URL da API LLM
 url_llm = "http://localhost:11434/api/chat"
 
-# Classificação esperada (fornecida)
-classificacao_esperada = {
-    "Infraestrutura": [
-        "HACA93 - Dispositivos Tecnológicos Práticos I",
-        "HACA94 - Dispositivos Tecnológicos Práticos II",
-        "HACB14 - Sistemas Digitais em Artes",
-        "HACB08 - Tecnologia da Informação e as Artes",
-        "HACA53 - Ciência e Tecnologia IV",
-        "HACA39 - Ciência e Tecnologia III",
-        "HACA96 - Laboratório de Ciência e Tecnologia",
-        "HACA41 - Tecnologias Aplicadas às Artes",
-        "HACA89 - Concepção de Produtos Tecnológicos"
-    ],
-    "Desenvolvimento": [
-        "HACB10 - Linguagens e Ambientes de Programação em Artes",
-        "HACB28 - Computação Aplicada",
-        "HACA89 - Concepção de Produtos Tecnológicos",
-        "HACA41 - Tecnologias Aplicadas às Artes",
-        "HACA53 - Ciência e Tecnologia IV",
-        "HACA39 - Ciência e Tecnologia III",
-        "HACA38 - Ciência e Tecnologia II",
-        "HACA09 - Ciência e Tecnologia I",
-        "HACA93 - Dispositivos Tecnológicos Práticos I",
-        "HACA94 - Dispositivos Tecnológicos Práticos II",
-        "HACB04 - Empreendedorismo e Inovação"
-    ],
-    "Ciência de Dados": [
-        "HACA83 - Matemática, Natureza e Sociedade",
-        "HACA96 - Laboratório de Ciência e Tecnologia",
-        "HACA90 - Sistemas de Inovação em Ciência e Tecnologia",
-        "HACB28 - Computação Aplicada",
-        "HACA38 - Ciência e Tecnologia II",
-        "HACA09 - Ciência e Tecnologia I",
-        "HACA53 - Ciência e Tecnologia IV",
-        "HACA39 - Ciência e Tecnologia III",
-        "HACB04 - Empreendedorismo e Inovação"
-    ]
-}
-
 # Função para carregar os dados do JSON
 def carregar_ementa_json(arquivo):
     try:
@@ -69,9 +30,59 @@ def consultar_llm(conteudo):
     except requests.exceptions.RequestException as e:
         print(f"Erro ao consultar o LLM: {e}")
         return "erro ao processar"
+    
+    # Classificação esperada (fornecida)
+classificacao_esperada = {
+    "Infraestrutura": [
+        "HACA09 - CIÊNCIA E TECNOLOGIA I",
+        "HACA38 - CIÊNCIA E TECNOLOGIA II",
+        "LETE45 - LEITURA E PRODUÇÃO DE TEXTOS EM LÍNGUA PORTUGUESA",
+        "HACA02 - ELEMENTOS ACADÊMICOS E PROFISSIONAIS EM CIÊNCIA E TECNOLOGIA",
+        "HACB07 - ARQUEOLOGIA DAS ARTES E TECNOLOGIAS",
+        "HACA89 - CONCEPÇÃO DE PRODUTOS TECNOLÓGICOS",
+        "HACA93 - DISPOSITIVOS TECNOLÓGICOS PRÁTICOS I",
+        "HACA94 - DISPOSITIVOS TECNOLÓGICOS PRÁTICOS II",
+        "HACB04 - EMPREENDEDORISMO E INOVAÇÃO"
+    ],
+    "Desenvolvimento": [
+        "HACA09 - CIÊNCIA E TECNOLOGIA I",
+        "HACA38 - CIÊNCIA E TECNOLOGIA II",
+        "LETE45 - LEITURA E PRODUÇÃO DE TEXTOS EM LÍNGUA PORTUGUESA",
+        "HACA02 - ELEMENTOS ACADÊMICOS E PROFISSIONAIS EM CIÊNCIA E TECNOLOGIA",
+        "HACB07 - ARQUEOLOGIA DAS ARTES E TECNOLOGIAS",
+        "HACA96 - LABORATÓRIO DE CIÊNCIA E TECNOLOGIA",
+        "HACA10 - LINGUAGENS E AMBIENTES DE PROGRAMAÇÃO EM ARTES",
+        "HACB14 - SISTEMAS DIGITAIS EM ARTES",
+        "HACB08 - TECNOLOGIA DA INFORMAÇÃO E AS ARTES"
+    ],
+    "Ciência de Dados": [
+        "HACA09 - CIÊNCIA E TECNOLOGIA I",
+        "HACA38 - CIÊNCIA E TECNOLOGIA II",
+        "LETE45 - LEITURA E PRODUÇÃO DE TEXTOS EM LÍNGUA PORTUGUESA",
+        "HACA02 - ELEMENTOS ACADÊMICOS E PROFISSIONAIS EM CIÊNCIA E TECNOLOGIA",
+        "HACB07 - ARQUEOLOGIA DAS ARTES E TECNOLOGIAS",
+        "HACA53 - CIÊNCIA E TECNOLOGIA IV",
+        "HACA39 - CIÊNCIA E TECNOLOGIA III",
+        "HACA82 - ARTE E MATEMATICA",
+        "HACA41 - TECNOLOGIAS APLICADAS ÀS ARTES"
+    ]
+}
 
-# Função para classificar matérias usando o LLM
-def classificar_materias_com_llm(dados_ementa):
+# Lista de perguntas a serem feitas ao LLM
+perguntas = [
+    "Qual área da tecnologia mais te interessa? (Infraestrutura, Desenvolvimento, Ciência de Dados, etc.)",
+    "Você prefere aprender com mais teoria ou prática?",
+    "Tem experiência prévia em alguma área de tecnologia? Se sim, qual?",
+    "Gosta mais de resolver problemas matemáticos, construir sistemas ou trabalhar com hardware?"
+]
+
+# Coletar respostas do LLM
+respostas_usuario = {}
+for pergunta in perguntas:
+    respostas_usuario[pergunta] = consultar_llm(pergunta)
+
+# Função para recomendar matérias com base nas respostas do LLM e na ementa
+def recomendar_materias(dados_ementa, respostas):
     trilhas = {
         "Infraestrutura": [],
         "Desenvolvimento": [],
@@ -88,18 +99,30 @@ def classificar_materias_com_llm(dados_ementa):
         nome = materia.get("NOME", "Sem nome")
         pergunta = (
             f"Com base no seguinte conteúdo: '{conteudo}', "
-            "em quais trilhas esta matéria se encaixa melhor? "
-            "(Infraestrutura, Desenvolvimento, Ciência de Dados ou múltiplas)"
+            f"e nas respostas do usuário: {respostas}, "
+            "quais trilhas são mais adequadas para essa matéria? (Infraestrutura, Desenvolvimento, Ciência de Dados)"
         )
-        
         resposta = consultar_llm(pergunta)
 
-        # Normalizar e verificar a resposta
         for trilha in trilhas.keys():
             if trilha.lower() in resposta:
                 trilhas[trilha].append(f"{codigo} - {nome}")
-
+    
     return trilhas
+
+# Carregar os dados do JSON
+dados_ementa = carregar_ementa_json(arquivo_json)
+
+# Obter recomendações com base nas respostas e na ementa
+recomendacoes = recomendar_materias(dados_ementa, respostas_usuario)
+
+# Exibir apenas as recomendações
+print("\nRecomendações de matérias por trilha:")
+for trilha, materias in recomendacoes.items():
+    print(f"\nTrilha: {trilha}")
+    for materia in materias:
+        print(materia)
+
 
 # Função para calcular a precisão
 def calcular_precisao(classificacao_esperada, classificacao_predita):
@@ -124,22 +147,9 @@ def calcular_precisao(classificacao_esperada, classificacao_predita):
     precisao = (total_acertos / total_materias) * 100 if total_materias > 0 else 0
     return resultados, precisao
 
-# Carregar os dados do JSON
-ementa = carregar_ementa_json(arquivo_json)
 
-# Classificar as matérias em trilhas usando o LLM
-trilhas_materias = classificar_materias_com_llm(ementa)
-
-# Exibir as recomendações de matérias
-print("\nRecomendações de matérias por trilha:")
-
-for trilha, materias in trilhas_materias.items():
-    print(f"\nTrilha: {trilha}")
-    for materia in materias:
-        print(materia)
-
-# Avaliar a precisão
-resultados_avaliacao, score_total = calcular_precisao(classificacao_esperada, trilhas_materias)
+ # Avaliar a precisão
+resultados_avaliacao, score_total = calcular_precisao(classificacao_esperada, recomendacoes)
 
 # Exibir o relatório de avaliação
 print("\nRelatório de Avaliação:")

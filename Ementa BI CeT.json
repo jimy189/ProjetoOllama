@@ -1,124 +1,159 @@
 {
-"UFBA":[
- {
-  "CODIGO": "HACA09",
-  "NOME": "CIÊNCIA E TECNOLOGIA I",
-  "CONTEUDO": "Estudo dos aspectos multidisciplinares, epistemológicos e históricos da ciência, tecnologia e linguagem matemática, através de uma abordagem orientada à solução de problemas, sempre que possível vinculados a demandas da sociedade. Organizada com os diversos conteúdos multidisciplinares girando em torno derivados a partir da ciência da computação.\r"
- },
- {
-  "CODIGO": "HACA38",
-  "NOME": "CIÊNCIA E TECNOLOGIA II",
-  "CONTEUDO": "Estudo dos aspectos multidisciplinares, epistemológicos e históricos da ciência, tecnologia e linguagem matemática, através de uma abordagem orientada à solução de problemas, sempre que possível vinculados a demandas da sociedade. Organizada com os diversos conteúdos multidisciplinares girando em torno derivados a partir da ciência da computação.\n"
- },
- {
-  "CODIGO": "LETE45",
-  "NOME": "LEITURA E PRODUÇÃO DE TEXTOS EM LÍNGUA PORTUGUESA",
-  "CONTEUDO": "Trabalho com as competências de leitura, compreensão e produção de textos de diferentes tipologias e gêneros, com enfoque nos gêneros resumo, resenha crítica, artigo e ensaio.\n"
- },
- {
-  "CODIGO": "HACA02",
-  "NOME": "ELEMENTOS ACADÊMICOS E PROFISSIONAIS EM CIÊNCIA E TECNOLOGIA",
-  "CONTEUDO": "A Universidade. O Mundo do Trabalho. Introdução às profissões da Ciência e da Tecnologia (atividades, a base e as aplicações, as características e principais produtos da indústria e dos serviços e suas aplicações. os principais segmentos e cadeias produtivas). O curso e suas áreas de concetração. Metodologia Científica e Tecnológica. Pesquisa bibliográfica e bases de dados. Humanidades e Ética. Comunicação e Expressão. Expressão Gráfica (leitura e interpretação de desenhos de interesse da Ciência e Tecnologia). Utilização de computadores e aplicativos computacionais de desenho (CAD e similares), e aplicada, majoritariamente, a desenhos de interesse da Ciência e Tecnologia. Utilização de ferramentas de apoio pedagógico. Obrigatória a realização de trabalho escrito, com resumo em inglês e apresentação oral, utilizando adequadamente os métodos científicos e tecnológicos, a comunicação e expressão escrita e oral e a expressão gráfica.\n"
- },
- {
-  "CODIGO": "HACB07",
-  "NOME": "ARQUEOLOGIA DAS ARTES E TECNOLOGIAS",
-  "CONTEUDO": "Panorama sobre as novas configurações artisticas no contexto da cultura digital. Compreensão sobre a arte com mediação tecnologica a partir de fundamentação filosófica, analítica e reflexiva. os novos paradigmas e propostas artisticas do contexto contemporaneo. As novas configurações artisticas e as reformulações de vários campos e vertentes artisticas como reflexos estéticos do mundo contemporaneo. As tecnologias de cada época e suas relações com as artes.\n"
- },
- {
-  "CODIGO": "HACA82",
-  "NOME": "ARTE E MATEMATICA",
-  "CONTEUDO": "Relações entre a arte e a matemática através dos tempos. A linguagem matematica através da arte e a visão artistica da matemática. Noções de beleza e estética em ambas as areas. Discussão sobre conceitos de senso numérico, número, proporção, simetria, número áureo, ordem, caos, lógica, padrão, perspectiva, tempo, espaço, geometria, infinito, som, música, ritmo, dança e expressões corporais, entre outras. Exemplos e aplicações.\n"
- },
- {
-  "CODIGO": "HACA07",
-  "NOME": "ARTES E MUNDO DIGITAL",
-  "CONTEUDO": "Novas possibilidades e emergências de configurações artísticas em virtude da relação arte-ciência-tecnologia. Redimensionamento e reorganização das artes tradicionais e sua implicação com a cultura digital. Surgimento de configurações específicas de artes pela condição eletrônico-digital e pelos novos estudos de corpo. Tecnologias comunicacionais como elementos expressivos apropriados pelos vários campos artísticos. Relações entre arte e entretenimento, estética e ludicidade, arte e jogo. configurações artísticas com foco em interatividade, imersão, simulação e tecnologia aumentada. A implicação da arte nos processos e produções das tecnologias e das ciências.\n"
- },
- {
-  "CODIGO": "HACA39",
-  "NOME": "CIÊNCIA E TECNOLOGIA III",
-  "CONTEUDO": "Estudo dos aspectos multidisciplinares. epistemológicos e históricos da ciência, tecnologia e linguagem matemática, através de uma abordagem orientada à solução de problemas, sempre que possível vinculados a demandas da sociedade. Organizada com os diversos conteúdos multidisciplinares girando em torno e derivados a partir da física."
- },
- {
-  "CODIGO": "HACA53",
-  "NOME": "CIÊNCIA E TECNOLOGIA IV",
-  "CONTEUDO": "Estudo dos aspectos multidisciplinares, epistemológicos e históricos da ciência, tecnologia e linguagem matemática, através de uma abordagem orientada à solução de problemas, sempre que possível vinculado a demandas da sociedade. Organizada com os diversos conteúdos muldisciplinares girando em torno e derivados a partir da química e biologia."
- },
- {
-  "CODIGO": "HACB28",
-  "NOME": "COMPUTAÇÃO APLICADA",
-  "CONTEUDO": "Estudos de conceitos básicos e fundamentais de sistemas computacionais, abordando a organização geral dos sistemas de computação, os diferentes tipos de sistemas e as ferramentas de software existentes em áreas multidisciplinares.Estudo de tópicos relacionados ao impacto do uso das tecnologias e o desenvolvimento de projetos de aplicação de sistemas com putacionais em diversas áreas."
- },
- {
-  "CODIGO": "HACA89",
-  "NOME": "CONCEPÇÃO DE PRODUTOS TECNOLÓGICOS",
-  "CONTEUDO": "O produto como um negócio. Necessidades dos clientes e oportunidades no ambiente tecnológico. Competidores e barreiras de entrada. Especificações técnicas e o posicionamento estratégico no mercado. Modelos de negócios para sustentação do produto. Efeitos da produção, comercialização e redes de operação na definição do produto. Pesquisa, desenvolvimento e licenciamento. Dilemas licenciar-desenvolver e produzir-incorporar. Design estético e funcional no posicionamento do mercado. Logística e internacionalização. Plano de negócios e financiamento. Estudos de casos de concepção de produtos tecnológicos."
- },
- {
-  "CODIGO": "HACA93",
-  "NOME": "DISPOSITIVOS TECNOLÓGICOS PRÁTICOS I",
-  "CONTEUDO": "Estudos dos aspectos multidisciplinares dos conhecimentos básicos da engenharia, através de uma abordagem orientada à solução de problemas práticos, sempre que possivel vinculados a demanda da sociedade. Organizada com os diversos conteúdos multidisciplinares girando em torno e derivados a partir da eletricidade e eletrônica.\n"
- },
- {
-  "CODIGO": "HACA94",
-  "NOME": "DISPOSITIVOS TECNOLÓGICOS PRÁTICOS II",
-  "CONTEUDO": "Estudos dos aspectos multidisciplinares dos conhecimentos básicos da engenharia, através de uma abordagem orientada a solução de problemas práticos, sempre que possível vinculados a demanda da sociedade. Organizada com os diversos conteúdos multidisciplinares girando em torno e derivados a partir dos microprocessadores e microcontroladores.\r"
- },
- {
-  "CODIGO": "HACB04",
-  "NOME": "EMPREENDEDORISMO E INOVAÇÃO",
-  "CONTEUDO": "Sociedade tecnologia e inovação. Inovação conceitual e inovação tecnológica. O que é empreendedorismo. As instituições de C&T e de empreendedorismo no Brasil. Projeto de desenvolvimento de produto\/serviços. O mercado de consumidores e o mercado de empresas. Estudos de mercado e do comportamento dos consumidores: técnicas de pesquisa. Incubadoras. Marketing de produtos e serviços inovadores. Plano de negócios."
- },
- {
-  "CODIGO": "HACA96",
-  "NOME": "LABORATÓRIO DE CIÊNCIA E TECNOLOGIA",
-  "CONTEUDO": "Experimentos fundamentais, históricos e modernos da ciência e tecnologia, em áreas diversas. Procedimento experimental básico. Método científico. Teoria de incertezas."
- },
- {
-  "CODIGO": "HACB10",
-  "NOME": "LINGUAGENS E AMBIENTES DE PROGRAMAÇÃO EM ARTES",
-  "CONTEUDO": "Visão geral sobre linguagens de programação, e possíveis aplicações associadas a área de artes. Ambientes de programação utilizados na construção de softwares aplicativos voltados para a área de artes. Programação básica em linguagem do tipo C ou Java, ou ainda de um ambiente computacional como por exemplo o MATLAB, na dependência da demanda do grupo."
- },
- {
-  "CODIGO": "HACA83",
-  "NOME": "MATEMÁTICA, NATUREZA E SOCIEDADE",
-  "CONTEUDO": "Apresentação de alguns dos principais conceitos matemáticos de forma não sequencial, conectados a descobertas diversas ao longo da história da humanidade. Abordagem da matemática como fruto de aspectos multidisciplinares, epistemológicos e históricos, sempre que possivel vinculados a demandas da sociedade. Base das linguagens comtemporâneas da ciências e das tecnologias. Matemática, abstração e intuição. Matemática e natureza. Matemáticas e matemáticos. Pura e aplicada. A linguagem da natureza, das ciências e das tecnologias. Notação, rigor e estética. Aspectos filosóficos."
- },
- {
-  "CODIGO": "HACA90",
-  "NOME": "SISTEMAS DE INOVAÇÃO EM CIÊNCIA E TECNOLOGIA",
-  "CONTEUDO": "Inovação nos diversos tipos de arranjos industriais: baseados em ciência, intensivos em escala, dominados por fornecedores, fornecedores especializados. Serviços tecnológicos. Cadeia de valor e arranjos produtivos locais. Sistemas de inovação: Mundo, Brasil e estados. Relação governo-universidade-indústria. Institutos de pesquisa. Parques tecnológicos. Incubadoras de empresas. Redes de PD. Agências públicas de fomento e financiamento. Capital de risco. Propriedade intelectual e licenciamento de tecnologia.\n"
- },
- {
-  "CODIGO": "HACB14",
-  "NOME": "SISTEMAS DIGITAIS EM ARTES",
-  "CONTEUDO": "Sistemas digitais e sua aplicação em artes. Dispositivos que compõem os principais sistemas digitais. Noções básicas sobre tratamento digital das informações sensoriais: áudio e visual. Aquisição e processamento de sinais gerados por transdutores voltados a área de artes: microfones, câmeras, sensores de posição e movimento, etc. Equipamentos para processamento digital de sinais: computadores, sistemas dedicados, sistemas embarcados. Informação digitalizada: noções de base matemática, conhecimento de sistemas eletrônicos, conhecimento de linguagens de programação.\n"
- },
- {
-  "CODIGO": "HACB08",
-  "NOME": "TECNOLOGIA DA INFORMAÇÃO E AS ARTES",
-  "CONTEUDO": "Definições sobre Tecnologia da Informação e Comunicação e sua aplicação nas artes. Princípio de funcionamento dos computadores e tipos de computadores. Sistema operacional e programas aplicativos para as artes. Computadores em rede. O conceito de redes: WLAN, LAN, PAN, outras possibilidades e, a aplicação nas artes. Tecnologias de Comunicação utilizadas na conexão de computadores e redes. História da Internet. Projetos práticos utilizando Tecnologia da Informação e Comunicação nas artes."
- },
- {
-  "CODIGO": "HACA41",
-  "NOME": "TECNOLOGIAS APLICADAS ÀS ARTES",
-  "CONTEUDO": "Panorama histórico sobre as tecnologias aplicadas às artes.A relação das artes contemporâneas com as novas tecnologias digitais: interatividade, imersão, rede e inteligência artificial aumentada. Desenvolvimento de projeto, processos de criação, produção e gestão entre grupos interdisciplinares de profissionais das tecnologias e das artes. O relacionamento arte- ciência-tecnologia como ignição e ambiente propício para o surgimento de configurações e proposições artísticas específicas nesse campo."
- },
- {
-  "CODIGO": "HACB13",
-  "NOME": "TÓPICOS ESPECIAIS EM ARTES E TECNOLOGIAS CONTEMPORÂNEAS",
-  "CONTEUDO": "Discussão de temas atuais em tecnologias contemporâneas.\n"
- },
- {
-  "CODIGO": "HACA47",
-  "NOME": "TÓPICOS ESPECIAIS EM TECNOLOGIA I",
-  "CONTEUDO": "Estudo de tópicos específicos multidisciplinares, epistemológicos e históricos voltados para a abordagem das técnicas e dos desenvolvimentos de inovações, em questões tanto fundamentais quanto contemporâneas de determinados campos tecnológicos.\r"
- },
- {
-  "CODIGO": "HACB06",
-  "NOME": "TÓPICOS ESPECIAIS EM TECNOLOGIA II",
-  "CONTEUDO": "Estudo de tópicos específicos multidisciplinares, epistemológicos e históricos voltados para a abordagem das técnicas e dos desenvolvimentos de inovações, em questões tanto fundamentais quanto contemporâneas de determinados campos tecnológicos."
- }
-]
+    "UFBA": [
+        {
+            "CODIGO": "HACA09",
+            "NOME": "CIÊNCIA E TECNOLOGIA I",
+            "CONTEUDO": "Estudo dos aspectos multidisciplinares, epistemológicos e históricos da ciência, tecnologia e linguagem matemática, através de uma abordagem orientada à solução de problemas, sempre que possível vinculados a demandas da sociedade. Organizada com os diversos conteúdos multidisciplinares girando em torno derivados a partir da ciência da computação.\r"
+        },
+        {
+            "CODIGO": "HACA38",
+            "NOME": "CIÊNCIA E TECNOLOGIA II",
+            "CONTEUDO": "Estudo dos aspectos multidisciplinares, epistemológicos e históricos da ciência, tecnologia e linguagem matemática, através de uma abordagem orientada à solução de problemas, sempre que possível vinculados a demandas da sociedade. Organizada com os diversos conteúdos multidisciplinares girando em torno derivados a partir da ciência da computação.\n"
+        },
+        {
+            "CODIGO": "LETE45",
+            "NOME": "LEITURA E PRODUÇÃO DE TEXTOS EM LÍNGUA PORTUGUESA",
+            "CONTEUDO": "Trabalho com as competências de leitura, compreensão e produção de textos de diferentes tipologias e gêneros, com enfoque nos gêneros resumo, resenha crítica, artigo e ensaio.\n"
+        },
+        {
+            "CODIGO": "HACA02",
+            "NOME": "ELEMENTOS ACADÊMICOS E PROFISSIONAIS EM CIÊNCIA E TECNOLOGIA",
+            "CONTEUDO": "A Universidade. O Mundo do Trabalho. Introdução às profissões da Ciência e da Tecnologia (atividades, a base e as aplicações, as características e principais produtos da indústria e dos serviços e suas aplicações. os principais segmentos e cadeias produtivas). O curso e suas áreas de concetração. Metodologia Científica e Tecnológica. Pesquisa bibliográfica e bases de dados. Humanidades e Ética. Comunicação e Expressão. Expressão Gráfica (leitura e interpretação de desenhos de interesse da Ciência e Tecnologia). Utilização de computadores e aplicativos computacionais de desenho (CAD e similares), e aplicada, majoritariamente, a desenhos de interesse da Ciência e Tecnologia. Utilização de ferramentas de apoio pedagógico. Obrigatória a realização de trabalho escrito, com resumo em inglês e apresentação oral, utilizando adequadamente os métodos científicos e tecnológicos, a comunicação e expressão escrita e oral e a expressão gráfica.\n"
+        },
+        {
+            "CODIGO": "HACB07",
+            "NOME": "ARQUEOLOGIA DAS ARTES E TECNOLOGIAS",
+            "CONTEUDO": "Panorama sobre as novas configurações artisticas no contexto da cultura digital. Compreensão sobre a arte com mediação tecnologica a partir de fundamentação filosófica, analítica e reflexiva. os novos paradigmas e propostas artisticas do contexto contemporaneo. As novas configurações artisticas e as reformulações de vários campos e vertentes artisticas como reflexos estéticos do mundo contemporaneo. As tecnologias de cada época e suas relações com as artes.\n"
+        },
+        {
+            "CODIGO": "HACA82",
+            "NOME": "ARTE E MATEMATICA",
+            "CONTEUDO": "Relações entre a arte e a matemática através dos tempos. A linguagem matematica através da arte e a visão artistica da matemática. Noções de beleza e estética em ambas as areas. Discussão sobre conceitos de senso numérico, número, proporção, simetria, número áureo, ordem, caos, lógica, padrão, perspectiva, tempo, espaço, geometria, infinito, som, música, ritmo, dança e expressões corporais, entre outras. Exemplos e aplicações.\n"
+        },
+        {
+            "CODIGO": "HACA07",
+            "NOME": "ARTES E MUNDO DIGITAL",
+            "CONTEUDO": "Novas possibilidades e emergências de configurações artísticas em virtude da relação arte-ciência-tecnologia. Redimensionamento e reorganização das artes tradicionais e sua implicação com a cultura digital. Surgimento de configurações específicas de artes pela condição eletrônico-digital e pelos novos estudos de corpo. Tecnologias comunicacionais como elementos expressivos apropriados pelos vários campos artísticos. Relações entre arte e entretenimento, estética e ludicidade, arte e jogo. configurações artísticas com foco em interatividade, imersão, simulação e tecnologia aumentada. A implicação da arte nos processos e produções das tecnologias e das ciências.\n"
+        },
+        {
+            "CODIGO": "HACA39",
+            "NOME": "CIÊNCIA E TECNOLOGIA III",
+            "CONTEUDO": "Estudo dos aspectos multidisciplinares. epistemológicos e históricos da ciência, tecnologia e linguagem matemática, através de uma abordagem orientada à solução de problemas, sempre que possível vinculados a demandas da sociedade. Organizada com os diversos conteúdos multidisciplinares girando em torno e derivados a partir da física."
+        },
+        {
+            "CODIGO": "HACA53",
+            "NOME": "CIÊNCIA E TECNOLOGIA IV",
+            "CONTEUDO": "Estudo dos aspectos multidisciplinares, epistemológicos e históricos da ciência, tecnologia e linguagem matemática, através de uma abordagem orientada à solução de problemas, sempre que possível vinculado a demandas da sociedade. Organizada com os diversos conteúdos muldisciplinares girando em torno e derivados a partir da química e biologia."
+        },
+        {
+            "CODIGO": "HACB28",
+            "NOME": "COMPUTAÇÃO APLICADA",
+            "CONTEUDO": "Estudos de conceitos básicos e fundamentais de sistemas computacionais, abordando a organização geral dos sistemas de computação, os diferentes tipos de sistemas e as ferramentas de software existentes em áreas multidisciplinares.Estudo de tópicos relacionados ao impacto do uso das tecnologias e o desenvolvimento de projetos de aplicação de sistemas com putacionais em diversas áreas."
+        },
+        {
+            "CODIGO": "HACA89",
+            "NOME": "CONCEPÇÃO DE PRODUTOS TECNOLÓGICOS",
+            "CONTEUDO": "O produto como um negócio. Necessidades dos clientes e oportunidades no ambiente tecnológico. Competidores e barreiras de entrada. Especificações técnicas e o posicionamento estratégico no mercado. Modelos de negócios para sustentação do produto. Efeitos da produção, comercialização e redes de operação na definição do produto. Pesquisa, desenvolvimento e licenciamento. Dilemas licenciar-desenvolver e produzir-incorporar. Design estético e funcional no posicionamento do mercado. Logística e internacionalização. Plano de negócios e financiamento. Estudos de casos de concepção de produtos tecnológicos."
+        },
+        {
+            "CODIGO": "HACA93",
+            "NOME": "DISPOSITIVOS TECNOLÓGICOS PRÁTICOS I",
+            "CONTEUDO": "Estudos dos aspectos multidisciplinares dos conhecimentos básicos da engenharia, através de uma abordagem orientada à solução de problemas práticos, sempre que possivel vinculados a demanda da sociedade. Organizada com os diversos conteúdos multidisciplinares girando em torno e derivados a partir da eletricidade e eletrônica.\n"
+        },
+        {
+            "CODIGO": "HACA94",
+            "NOME": "DISPOSITIVOS TECNOLÓGICOS PRÁTICOS II",
+            "CONTEUDO": "Estudos dos aspectos multidisciplinares dos conhecimentos básicos da engenharia, através de uma abordagem orientada a solução de problemas práticos, sempre que possível vinculados a demanda da sociedade. Organizada com os diversos conteúdos multidisciplinares girando em torno e derivados a partir dos microprocessadores e microcontroladores.\r"
+        },
+        {
+            "CODIGO": "HACB04",
+            "NOME": "EMPREENDEDORISMO E INOVAÇÃO",
+            "CONTEUDO": "Sociedade tecnologia e inovação. Inovação conceitual e inovação tecnológica. O que é empreendedorismo. As instituições de C&T e de empreendedorismo no Brasil. Projeto de desenvolvimento de produto/serviços. O mercado de consumidores e o mercado de empresas. Estudos de mercado e do comportamento dos consumidores: técnicas de pesquisa. Incubadoras. Marketing de produtos e serviços inovadores. Plano de negócios."
+        },
+        {
+            "CODIGO": "HACA96",
+            "NOME": "LABORATÓRIO DE CIÊNCIA E TECNOLOGIA",
+            "CONTEUDO": "Experimentos fundamentais, históricos e modernos da ciência e tecnologia, em áreas diversas. Procedimento experimental básico. Método científico. Teoria de incertezas."
+        },
+        {
+            "CODIGO": "HACB10",
+            "NOME": "LINGUAGENS E AMBIENTES DE PROGRAMAÇÃO EM ARTES",
+            "CONTEUDO": "Visão geral sobre linguagens de programação, e possíveis aplicações associadas a área de artes. Ambientes de programação utilizados na construção de softwares aplicativos voltados para a área de artes. Programação básica em linguagem do tipo C ou Java, ou ainda de um ambiente computacional como por exemplo o MATLAB, na dependência da demanda do grupo."
+        },
+        {
+            "CODIGO": "HACA83",
+            "NOME": "MATEMÁTICA, NATUREZA E SOCIEDADE",
+            "CONTEUDO": "Apresentação de alguns dos principais conceitos matemáticos de forma não sequencial, conectados a descobertas diversas ao longo da história da humanidade. Abordagem da matemática como fruto de aspectos multidisciplinares, epistemológicos e históricos, sempre que possivel vinculados a demandas da sociedade. Base das linguagens comtemporâneas da ciências e das tecnologias. Matemática, abstração e intuição. Matemática e natureza. Matemáticas e matemáticos. Pura e aplicada. A linguagem da natureza, das ciências e das tecnologias. Notação, rigor e estética. Aspectos filosóficos."
+        },
+        {
+            "CODIGO": "HACA90",
+            "NOME": "SISTEMAS DE INOVAÇÃO EM CIÊNCIA E TECNOLOGIA",
+            "CONTEUDO": "Inovação nos diversos tipos de arranjos industriais: baseados em ciência, intensivos em escala, dominados por fornecedores, fornecedores especializados. Serviços tecnológicos. Cadeia de valor e arranjos produtivos locais. Sistemas de inovação: Mundo, Brasil e estados. Relação governo-universidade-indústria. Institutos de pesquisa. Parques tecnológicos. Incubadoras de empresas. Redes de PD. Agências públicas de fomento e financiamento. Capital de risco. Propriedade intelectual e licenciamento de tecnologia.\n"
+        },
+        {
+            "CODIGO": "HACB14",
+            "NOME": "SISTEMAS DIGITAIS EM ARTES",
+            "CONTEUDO": "Sistemas digitais e sua aplicação em artes. Dispositivos que compõem os principais sistemas digitais. Noções básicas sobre tratamento digital das informações sensoriais: áudio e visual. Aquisição e processamento de sinais gerados por transdutores voltados a área de artes: microfones, câmeras, sensores de posição e movimento, etc. Equipamentos para processamento digital de sinais: computadores, sistemas dedicados, sistemas embarcados. Informação digitalizada: noções de base matemática, conhecimento de sistemas eletrônicos, conhecimento de linguagens de programação.\n"
+        },
+        {
+            "CODIGO": "HACB08",
+            "NOME": "TECNOLOGIA DA INFORMAÇÃO E AS ARTES",
+            "CONTEUDO": "Definições sobre Tecnologia da Informação e Comunicação e sua aplicação nas artes. Princípio de funcionamento dos computadores e tipos de computadores. Sistema operacional e programas aplicativos para as artes. Computadores em rede. O conceito de redes: WLAN, LAN, PAN, outras possibilidades e, a aplicação nas artes. Tecnologias de Comunicação utilizadas na conexão de computadores e redes. História da Internet. Projetos práticos utilizando Tecnologia da Informação e Comunicação nas artes."
+        },
+        {
+            "CODIGO": "HACA41",
+            "NOME": "TECNOLOGIAS APLICADAS ÀS ARTES",
+            "CONTEUDO": "Panorama histórico sobre as tecnologias aplicadas às artes.A relação das artes contemporâneas com as novas tecnologias digitais: interatividade, imersão, rede e inteligência artificial aumentada. Desenvolvimento de projeto, processos de criação, produção e gestão entre grupos interdisciplinares de profissionais das tecnologias e das artes. O relacionamento arte- ciência-tecnologia como ignição e ambiente propício para o surgimento de configurações e proposições artísticas específicas nesse campo."
+        },
+        {
+            "CODIGO": "HACB13",
+            "NOME": "TÓPICOS ESPECIAIS EM ARTES E TECNOLOGIAS CONTEMPORÂNEAS",
+            "CONTEUDO": "Discussão de temas atuais em tecnologias contemporâneas.\n"
+        },
+        {
+            "CODIGO": "HACA47",
+            "NOME": "TÓPICOS ESPECIAIS EM TECNOLOGIA I",
+            "CONTEUDO": "Estudo de tópicos específicos multidisciplinares, epistemológicos e históricos voltados para a abordagem das técnicas e dos desenvolvimentos de inovações, em questões tanto fundamentais quanto contemporâneas de determinados campos tecnológicos.\r"
+        },
+        {
+            "CODIGO": "HACB06",
+            "NOME": "TÓPICOS ESPECIAIS EM TECNOLOGIA II",
+            "CONTEUDO": "Estudo de tópicos específicos multidisciplinares, epistemológicos e históricos voltados para a abordagem das técnicas e dos desenvolvimentos de inovações, em questões tanto fundamentais quanto contemporâneas de determinados campos tecnológicos."
+        },
+        {
+            "CODIGO": "HACA46",
+            "NOME": "Tópicos Especiais em Ciências I",
+            "CONTEUDO": "Descrição não disponível"
+        },
+        {
+            "CODIGO": "HACA88",
+            "NOME": "Desenvolvimento de Produto e Produção Industrial",
+            "CONTEUDO": "Descrição não disponível"
+        },
+        {
+            "CODIGO": "HACA91",
+            "NOME": "Fundamentos de Nanociência e Nanotecnologia",
+            "CONTEUDO": "Descrição não disponível"
+        },
+        {
+            "CODIGO": "HACA92",
+            "NOME": "Gestão de Projetos de Pesquisa e Desenvolvimento",
+            "CONTEUDO": "Descrição não disponível"
+        },
+        {
+            "CODIGO": "HACA01",
+            "NOME": "Estudos Sobre a Contemporaneidade I",
+            "CONTEUDO": "Descrição não disponível"
+        },
+        {
+            "CODIGO": "HACA34",
+            "NOME": "Estudos Sobre a Contemporaneidade II",
+            "CONTEUDO": "Descrição não disponível"
+        },
+        {
+            "CODIGO": "LETE43",
+            "NOME": "Língua Portuguesa, Poder e Diversidade Cultural",
+            "CONTEUDO": "Descrição não disponível"
+        }
+    ]
 }
