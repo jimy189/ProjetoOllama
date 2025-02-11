@@ -86,5 +86,5 @@ o json com matéria nova.
 ## 📊 Fine Tuning
 Passe o arquivo no colab question-fine-tuning.json que esta 
 no repositório.
-https://colab.research.google.com/drive/11jJgwZkAAJmgSxdcb6crSnFu7atM92H-?authuser=3#scrollTo=FqfebeAdT073
+https://drive.google.com/file/d/11jJgwZkAAJmgSxdcb6crSnFu7atM92H-/view?usp=sharing
 
