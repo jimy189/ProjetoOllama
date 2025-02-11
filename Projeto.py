@@ -70,11 +70,31 @@ classificacao_esperada = {
 
 # Lista de perguntas a serem feitas ao LLM
 perguntas = [
-    "Qual área da tecnologia mais te interessa? (Infraestrutura, Desenvolvimento, Ciência de Dados, etc.)",
-    "Você prefere aprender com mais teoria ou prática?",
-    "Tem experiência prévia em alguma área de tecnologia? Se sim, qual?",
-    "Gosta mais de resolver problemas matemáticos, construir sistemas ou trabalhar com hardware?"
-]
+        "1. Como os aspectos multidisciplinares e históricos da ciência e tecnologia podem ser aplicados para resolver problemas vinculados à sociedade?",
+        "2. De que forma a linguagem matemática e a abordagem multidisciplinar contribuem para a solução de problemas relacionados à ciência da computação?",
+        "3. Quais são as competências necessárias para a produção de textos acadêmicos, como resumos, resenhas críticas e artigos?",
+        "4. Como a integração entre metodologia científica, expressão gráfica e ferramentas CAD pode auxiliar no desenvolvimento de projetos tecnológicos?",
+        "5. Como as novas configurações artísticas são influenciadas pela cultura digital e pela mediação tecnológica?",
+        "6. Qual é a relação entre conceitos matemáticos, como simetria e proporção, e a estética artística?",
+        "7. Como as tecnologias comunicacionais podem ser utilizadas como elementos expressivos em projetos artísticos interativos?",
+        "8. Como conhecimentos multidisciplinares derivados da física podem ser aplicados para resolver problemas vinculados à sociedade?",
+        "9. De que forma os conteúdos multidisciplinares derivados da química e biologia são utilizados para abordar demandas sociais?",
+        "10. Como a organização de sistemas computacionais impacta áreas multidisciplinares?",
+        "11. Como o design estético, a funcionalidade e o posicionamento estratégico no mercado são integrados no desenvolvimento de produtos tecnológicos?",
+        "12. Como os conhecimentos de eletricidade e eletrônica podem ser aplicados para resolver problemas práticos?",
+        "13. De que forma microprocessadores e microcontroladores são utilizados em soluções tecnológicas?",
+        "14. Como o desenvolvimento de produtos e serviços inovadores pode ser planejado, desde a pesquisa de mercado até o plano de negócios?",
+        "15. Como experimentos históricos e modernos podem ser utilizados para ensinar o método científico?",
+        "16. Como linguagens de programação, como C, Java e MATLAB, podem ser aplicadas em projetos artísticos?",
+        "17. Como os conceitos matemáticos podem ser conectados a descobertas históricas e aplicações contemporâneas?",
+        "18. Qual é a relação entre governo, universidade e indústria no fomento à inovação tecnológica?",
+        "19. Como o processamento digital de sinais pode ser aplicado em projetos artísticos interativos?",
+        "20. Como redes e sistemas computacionais podem ser utilizados em projetos artísticos?",
+        "21. Como a interatividade e a imersão são aplicadas em configurações artísticas digitais?",
+        "22. Quais são os temas atuais em tecnologias contemporâneas que impactam a arte e a ciência?",
+        "23. Quais são os tópicos multidisciplinares e históricos relevantes para o desenvolvimento de inovações tecnológicas?",
+        "24. Como técnicas e desenvolvimentos inovadores são explorados em campos tecnológicos específicos?"
+    ]
 
 # Coletar respostas do LLM
 respostas_usuario = {}
