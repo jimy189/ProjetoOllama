@@ -1,0 +1,113 @@
+ [
+    {
+      "instruction": "Leia o trecho abaixo e responda à questão.",
+      "input": "Como os aspectos multidisciplinares e históricos da ciência e tecnologia podem ser aplicados para resolver problemas vinculados à sociedade?",
+      "output": "Os aspectos multidisciplinares permitem integrar conhecimentos de diferentes áreas, como física, química e engenharia, para solucionar desafios sociais. Historicamente, avanços científicos impulsionaram inovações que melhoraram a qualidade de vida, como a eletricidade e a medicina moderna."
+    },
+    {
+      "instruction": "Resolva o problema matemático a seguir.",
+      "input": "De que forma a linguagem matemática e a abordagem multidisciplinar contribuem para a solução de problemas relacionados à ciência da computação?",
+      "output": "A linguagem matemática fornece modelos precisos para representar problemas, enquanto a abordagem multidisciplinar integra conhecimentos de lógica, estatística e engenharia para desenvolver algoritmos eficientes."
+    },
+    {
+      "instruction": "Complete a frase com a alternativa correta.",
+      "input": "Quais são as competências necessárias para a produção de textos acadêmicos, como resumos, resenhas críticas e artigos?",
+      "output": "As principais competências incluem domínio da norma culta, organização de ideias, capacidade argumentativa e uso adequado de referências e citações."
+    },
+    {
+      "instruction": "Analise a imagem e responda à questão.",
+      "input": "Como a integração entre metodologia científica, expressão gráfica e ferramentas CAD pode auxiliar no desenvolvimento de projetos tecnológicos?",
+      "output": "A metodologia científica garante rigor na pesquisa, a expressão gráfica facilita a visualização de conceitos e as ferramentas CAD permitem modelagem precisa e simulações avançadas."
+    },
+    {
+      "instruction": "Escolha a opção que melhor responde à pergunta.",
+      "input": "Como as novas configurações artísticas são influenciadas pela cultura digital e pela mediação tecnológica?",
+      "output": "A cultura digital amplia as possibilidades criativas, permitindo o uso de realidade aumentada, inteligência artificial e interatividade para criar novas formas de expressão artística."
+    },
+    {
+      "instruction": "Leia o trecho abaixo e responda à questão.",
+      "input": "Qual é a relação entre conceitos matemáticos, como simetria e proporção, e a estética artística?",
+      "output": "A simetria e a proporção são fundamentais para a composição estética, influenciando desde a arquitetura clássica até o design gráfico moderno."
+    },
+    {
+      "instruction": "Analise a imagem e responda à questão.",
+      "input": "Como as tecnologias comunicacionais podem ser utilizadas como elementos expressivos em projetos artísticos interativos?",
+      "output": "As tecnologias comunicacionais, como redes sociais e sensores de movimento, possibilitam experiências imersivas e interações dinâmicas entre a obra e o espectador."
+    },
+    {
+      "instruction": "Resolva o problema matemático a seguir.",
+      "input": "Como conhecimentos multidisciplinares derivados da física podem ser aplicados para resolver problemas vinculados à sociedade?",
+      "output": "A física contribui para soluções como painéis solares, sistemas de transporte eficientes e modelagem climática, promovendo avanços tecnológicos sustentáveis."
+    },
+    {
+      "instruction": "Complete a frase com a alternativa correta.",
+      "input": "De que forma os conteúdos multidisciplinares derivados da química e biologia são utilizados para abordar demandas sociais?",
+      "output": "A química e a biologia permitem avanços em fármacos, biotecnologia e tratamentos ambientais, atendendo a desafios como saúde pública e sustentabilidade."
+    },
+    {
+      "instruction": "Escolha a opção que melhor responde à pergunta.",
+      "input": "Como a organização de sistemas computacionais impacta áreas multidisciplinares?",
+      "output": "Os sistemas computacionais otimizam processos em áreas como engenharia, saúde e economia, viabilizando simulações, automação e análise de grandes volumes de dados."
+    },
+    {
+      "instruction": "Leia o trecho abaixo e responda à questão.",
+      "input": "Como o design estético, a funcionalidade e o posicionamento estratégico no mercado são integrados no desenvolvimento de produtos tecnológicos?",
+      "output": "O design estético atrai consumidores, a funcionalidade garante usabilidade e a estratégia de mercado posiciona o produto de forma competitiva."
+    },
+    {
+      "instruction": "Analise a imagem e responda à questão.",
+      "input": "Como os conhecimentos de eletricidade e eletrônica podem ser aplicados para resolver problemas práticos?",
+      "output": "Eles são fundamentais para o desenvolvimento de circuitos, dispositivos eletrônicos e sistemas automatizados que facilitam tarefas diárias e processos industriais."
+    },
+    {
+      "instruction": "Resolva o problema matemático a seguir.",
+      "input": "De que forma microprocessadores e microcontroladores são utilizados em soluções tecnológicas?",
+      "output": "Eles permitem o desenvolvimento de sistemas embarcados, controle de automação industrial e dispositivos inteligentes, como IoT."
+    },
+    {
+      "instruction": "Complete a frase com a alternativa correta.",
+      "input": "Como o desenvolvimento de produtos e serviços inovadores pode ser planejado, desde a pesquisa de mercado até o plano de negócios?",
+      "output": "A inovação requer análise de necessidades, prototipagem, testes e estratégias de comercialização para garantir sucesso no mercado."
+    },
+    {
+      "instruction": "Escolha a opção que melhor responde à pergunta.",
+      "input": "Como experimentos históricos e modernos podem ser utilizados para ensinar o método científico?",
+      "output": "Eles demonstram a aplicação prática do método científico, permitindo a validação de hipóteses e o desenvolvimento do pensamento crítico."
+    },
+    {
+      "instruction": "Leia o trecho abaixo e responda à questão.",
+      "input": "Como linguagens de programação, como C, Java e MATLAB, podem ser aplicadas em projetos artísticos?",
+      "output": "Essas linguagens são utilizadas para criar gráficos interativos, simulações visuais e algoritmos criativos para arte digital."
+    },
+    {
+      "instruction": "Analise a imagem e responda à questão.",
+      "input": "Como os conceitos matemáticos podem ser conectados a descobertas históricas e aplicações contemporâneas?",
+      "output": "Conceitos como geometria e álgebra foram essenciais para descobertas astronômicas e continuam sendo aplicados em computação e engenharia."
+    },
+    {
+      "instruction": "Escolha a opção que melhor responde à pergunta.",
+      "input": "Qual é a relação entre governo, universidade e indústria no fomento à inovação tecnológica?",
+      "output": "Esses setores colaboram para pesquisa, financiamento e aplicação prática de novas tecnologias, impulsionando o desenvolvimento econômico."
+    },
+    {
+      "instruction": "Leia o trecho abaixo e responda à questão.",
+      "input": "Como o processamento digital de sinais pode ser aplicado em projetos artísticos interativos?",
+      "output": "O processamento de sinais permite manipulação de áudio, vídeo e imagem em tempo real, criando experiências imersivas."
+    },
+    {
+      "instruction": "Analise a imagem e responda à questão.",
+      "input": "Como redes e sistemas computacionais podem ser utilizados em projetos artísticos?",
+      "output": "Eles possibilitam a interconexão de dispositivos para performances interativas e exposições digitais em larga escala."
+    },
+    {
+      "instruction": "Resolva o problema matemático a seguir.",
+      "input": "Como a interatividade e a imersão são aplicadas em configurações artísticas digitais?",
+      "output": "São exploradas por meio de realidade virtual, sensores de movimento e inteligência artificial para criar experiências envolventes."
+    },
+    {
+      "instruction": "Complete a frase com a alternativa correta.",
+      "input": "Quais são os temas atuais em tecnologias contemporâneas que impactam a arte e a ciência?",
+      "output": "Inteligência artificial, biotecnologia, computação quântica e realidade aumentada são alguns dos temas mais relevantes."
+    }
+ ]
+

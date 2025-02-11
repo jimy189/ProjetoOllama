@@ -81,5 +81,10 @@ python rag2.py
 ✔️ Mostra o que extraiu do pdf.
 ✔️ Verifica no json o se existe a matéria, se não existir ele atualizar o 
 o json com matéria nova.
-✔️ Rode de novo Projeto para ter um novo.
+✔️ Rode de novo Projeto.py para ter um novo resultado.
+
+## 📊 Fine Tuning
+Passe o arquivo no colab question-fine-tuning.json que esta 
+no repositório.
+https://colab.research.google.com/drive/11jJgwZkAAJmgSxdcb6crSnFu7atM92H-?authuser=3#scrollTo=FqfebeAdT073
 
